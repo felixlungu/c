@@ -3,7 +3,7 @@
 TS:TS1:"#define KXVER ",($.z.K),"\n#include \"",$[#f:getenv`QHOME;f;getenv[`HOME],"/q"],"/c/k.h\""
 CF:CF1:"-w"
 
-/ alocate compile context, compile and relocate.don't call direnctly. use dl[] to triger the compilation of code accumulated in TS
+/ alocate compile context, compile and relocate.don't call directly. use dl[] to triger the compilation of code accumulated in TS
 / .c.c["int main(...."]
 c:`c 2:(`c;2);
 / bind a function from the current compile context to a k object
